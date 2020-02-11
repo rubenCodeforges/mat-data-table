@@ -1,0 +1,35 @@
+app-admin-table {
+    [type="checkbox"] + label {
+        height: 15px;
+    }
+    thead tr {
+        border-bottom: 1px solid #000;
+    }
+
+    .example-header {
+        min-height: 64px;
+        padding: 8px 24px 0;
+    }
+
+    button:focus {
+        background-color: #fff !important;
+    }
+
+    .mat-sort-header-sorted button {
+        color: color('grey', 'darken-4') !important;
+    }
+
+    .mat-paginator-container {
+        justify-content: flex-start;
+    }
+
+    //.list-table {
+    //    mat-row, mat-header-row, .mat-column-select {
+    //        border: 0;
+    //    }
+    //    mat-header-row {
+    //        background-color: rgba(0, 0, 0, 0.2);
+    //        border-radius: 8px;
+    //    }
+    //}
+}
